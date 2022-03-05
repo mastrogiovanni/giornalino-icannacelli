@@ -67,16 +67,18 @@ canonifyurls = true
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
   url = "/"
+  
 #[[menu.main]]
 #  weight = 2
 #  identifier = "categories"
 #  name = "Categories"
 #  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
 #  url = "/categories"
+
 [[menu.main]]
   weight = 3
   identifier = "tags"
-  name = "Tags"
+  name = "Argomenti"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
   url = "/tags"
 
@@ -87,12 +89,12 @@ canonifyurls = true
 #  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
 #  url = "/archives"
 
-[[menu.main]]
-  weight = 5
-  identifier = "whatsapp"
-  name = "Whatsapp"
-  pre = "<i class=\"sidebar-button-icon fab fa-whatsapp\" aria-hidden=\"true\"></i>"
-  url = "https://chat.whatsapp.com/DBOy4D3FOlyF49VuuGEDRt"
+#[[menu.main]]
+#  weight = 5
+#  identifier = "whatsapp"
+#  name = "Whatsapp"
+#  pre = "<i class=\"sidebar-button-icon fab fa-whatsapp\" aria-hidden=\"true\"></i>"
+#  url = "https://chat.whatsapp.com/DBOy4D3FOlyF49VuuGEDRt"
 
 #[[menu.links]]
 #  weight = 1

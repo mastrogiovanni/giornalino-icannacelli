@@ -15,7 +15,7 @@
 baseURL = "https://giornalino-icannacelli.netlify.app"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Re.Ge.I"
+title = "Giornalino IC Anna F. Celli"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 googleAnalytics = "G-XP7E9R70G3"
@@ -67,7 +67,7 @@ canonifyurls = true
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
   url = "/"
-  
+
 #[[menu.main]]
 #  weight = 2
 #  identifier = "categories"
@@ -96,18 +96,26 @@ canonifyurls = true
 #  pre = "<i class=\"sidebar-button-icon fab fa-whatsapp\" aria-hidden=\"true\"></i>"
 #  url = "https://chat.whatsapp.com/DBOy4D3FOlyF49VuuGEDRt"
 
-#[[menu.links]]
-#  weight = 1
-#  identifier = "github"
-#  name = "GitHub"
-#  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
-#  url = "https://github.com/kakawait"
-#[[menu.links]]
-#  weight = 2
-#  identifier = "stackoverflow"
-#  name = "Stack Overflow"
-#  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
-#  url = "https://stackoverflow.com/users/636472/kakawait"
+[[menu.links]]
+  weight = 1
+  identifier = "contributo-volontario"
+  name = "Contributo Volontario"
+  pre = "<i class=\"sidebar-button-icon fa fa-solid fa-link fa-lg\" aria-hidden=\"true\"></i>"
+  url = "/docs/contributo-volontario.pdf"
+
+[[menu.links]]
+  weight = 2
+  identifier = "mensa-gen-feb"
+  name = "Relazione Mensa Gen/Feb"
+  pre = "<i class=\"sidebar-button-icon fa fa-solid fa-link fa-lg\" aria-hidden=\"true\"></i>"
+  url = "/docs/relazione-mensa-gen-feb.pdf"
+
+[[menu.links]]
+  weight = 3
+  identifier = "menu-invernale"
+  name = "Menu Invernale"
+  pre = "<i class=\"sidebar-button-icon fa fa-solid fa-link fa-lg\" aria-hidden=\"true\"></i>"
+  url = "/docs/menu-invernale.pdf"
 
 #[[menu.misc]]
 #  weight = 1
@@ -123,7 +131,7 @@ canonifyurls = true
   # -----------
   # Description
   # -----------
-  description = "Re.Ge.I"
+  description = "Giornalino IC Anna F. Celli"
 
   # ------------------
   # Syntax highlighter

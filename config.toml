@@ -97,27 +97,27 @@ canonifyurls = true
 #  url = "https://chat.whatsapp.com/DBOy4D3FOlyF49VuuGEDRt"
 
 [[menu.links]]
-  weight = 1
+  weight = 4
   identifier = "contributo-volontario"
   name = "Contributo Volontario"
   pre = "<i class=\"sidebar-button-icon fa fa-solid fa-link fa-lg\" aria-hidden=\"true\"></i>"
   url = "/docs/contributo-volontario.pdf"
 
-[[menu.links]]
-  weight = 2
+[[menu.main]]
+  weight = 5
   identifier = "mensa-gen-feb"
   name = "Relazione Mensa Gen/Feb"
   pre = "<i class=\"sidebar-button-icon fa fa-solid fa-link fa-lg\" aria-hidden=\"true\"></i>"
   url = "/docs/relazione-mensa-gen-feb.pdf"
 
-[[menu.links]]
-  weight = 3
+[[menu.main]]
+  weight = 6
   identifier = "menu-invernale"
   name = "Menu Invernale"
   pre = "<i class=\"sidebar-button-icon fa fa-solid fa-link fa-lg\" aria-hidden=\"true\"></i>"
   url = "/docs/menu-invernale.pdf"
 
-#[[menu.misc]]
+#[[menu.main]]
 #  weight = 1
 #  identifier = "rss"
 #  name = "RSS"
